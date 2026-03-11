@@ -1,0 +1,17 @@
+:root{
+    --backgroundColor: #5a6582;
+    --primaryColor: #5aad22;
+    --secondaryColor: #ffffff;
+    --accentColor: #2c302b;
+    --textColor: #edcdcd;
+    --linearGraidentColor1: rgba(90, 101, 130, 1);
+    --linearGraidentColor2: rgba(252, 82, 70, 1);
+    --backgroundLinearGraident: linear-gradient(45deg,var(--linearGraidentColor1) 40%, var(--linearGraidentColor2) 100%);
+    --debugBorder: 5px red solid;
+}
+
+/* Reset default browser gap */
+body {
+    margin: 0;
+    padding: 0;
+}
