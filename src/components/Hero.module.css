@@ -1,40 +1,24 @@
 .hero {
-    position: relative;
-    background-color: var(--backgroundColor);
-    height: 100vh;
-    width: 100%;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+   background: var(--backgroundLinearGraident);
+   min-height: 100vh;
+   display: flex; 
+   align-items: center;
+   padding-left: 10vh;
 }
-
-.starCanvas {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+.heroImageWrapper{
+    flex: 50%;
+    margin-left: 10rem;
+    overflow: show;
 }
-
-.heroContent {
-    position: relative;
-    z-index: 1;
-    text-align: center;
-    pointer-events: none;
+.heroImage{ 
+    border-radius: 10vh;
 }
-
-.heroName {
-    color: var(--primaryColor);
-    font-size: clamp(2.5rem, 6vw, 5rem);
-    margin: 0 0 1rem 0;
-    font-weight: 700;
-    letter-spacing: 0.02em;
+.heroContent{
+    flex: 75%;
 }
-
-.heroDescription {
-    color: var(--textColor);
-    font-size: clamp(1rem, 2.5vw, 1.5rem);
-    margin: 0;
-    opacity: 0.85;
+.heroName{ 
+    font: bold 5em times;
+}
+.heroDescription{ 
+    font: 1em sans-serif;
 }
